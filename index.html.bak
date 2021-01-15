@@ -1,5 +1,6 @@
 <!--
-Author by FreeHTML5.coTwitter: https://twitter.com/fh5coFacebook: https://fb.com/fh5coURL: https://freehtml5.co
+Author by FreeHTML5.coTwitter: https://twitter.com/fh5co
+Facebook: https://fb.com/fh5coURL: https://freehtml5.co
 --><!-- Required meta tags -->
 <html>
   <head>
@@ -7,13 +8,14 @@ Author by FreeHTML5.coTwitter: https://twitter.com/fh5coFacebook: https://fb.com
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/slick.css">
-    <title>Author </title>
+    <title>Author
+    </title>
     <!-- Navigation -->
   </head>
   <body>
     <nav class="site-navigation">
       <div class="site-navigation-inner site-container"> <img src="./images/site-logo.png"
-          alt="site logo" style="top: 0px; left: 55px; width: 90px; height: 79px;">
+          alt="site logo">
         <div class="main-navigation">
           <ul class="main-navigation__ul">
             <li> <a href="#">Homepage</a> </li>
