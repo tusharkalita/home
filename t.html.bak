@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Brindaban | Rang - Colours of Life </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<meta name="author" content="Rang">
+<meta name="description" content="Rang is an Assamese language general entertainment television channel owned by Pride East Entertainments Pvt. Ltd. of Guwahati." />
+<meta name="keywords" content="Rang, Rang TV, Music, Assamese, Movies, Videos, Entertainment News, Bollywood, Bollywood Movies, Assemese Movies, Assemese Seriel, Reality Soaps, Celebrities, Gossip, Top, Stories, Artists, Pop, Rock, Hip Hop, Free, Television, Shows, Series, Reality Show" />
+<meta property="og:title" content="Rang - Colours of Life, Assamese Serials, TV Shows & Live Reality Soaps| Entertainment Channel" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://www.rangtv.org/" />
+<meta property="og:image" content="http://www.rangtv.org/images/logo.png" />
+<meta property="og:description" content="Rang is an Assamese language general entertainment television channel owned by Pride East Entertainments Pvt. Ltd. of Guwahati. Rang gives you the entertainment world that'll keep you hooked!" />
+<link rel="shortcut icon" type="image/x-icon" href="https://rangtv.org/images/fav_icon.ico">
+
+<link rel="stylesheet" type="text/css" media="all" href="https://rangtv.org/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" media="all" href="https://rangtv.org/css/style.css">
+<link rel="stylesheet" href="https://rangtv.org/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" media="all" href="https://rangtv.org/css/responsive.css">
+<link rel="stylesheet" type="text/css" media="all" href="https://rangtv.org/css/styleswitcher.css">
+<link rel="stylesheet" type="text/css" media="all" href="https://rangtv.org/css/colorpicker.css">
+<link rel="stylesheet" type="text/css" media="all" href="https://rangtv.org/css/owl.carousel.css">
+<link rel="stylesheet" type="text/css" media="all" href="https://rangtv.org/css/animate.css">
+<link rel="stylesheet" type="text/css" media="all" href="https://rangtv.org/plugins/layerslider/css/layerslider.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic">
+
+<script src="https://rangtv.org/js/jquery.modernizr.js"></script>
+<link rel="stylesheet" href="https://rangtv.org/css1/style.css">
+<!--[if !IE]><!-->
+<style>
+	
+	/* 
+	Max width before this PARTICULAR table gets nasty
+	This query will take effect for any screen smaller than 760px
+	and also iPads specifically.
+	*/
+	@media 
+	only screen and (max-width: 760px),
+	(min-device-width: 768px) and (max-device-width: 1024px)  {
+	
+		/* Force table to not be like tables anymore */
+		table, thead, tbody, th, td, tr { 
+			display: block; 
+		}
+		
+		/* Hide table headers (but not display: none;, for accessibility) */
+		thead tr { 
+			position: absolute;
+			top: -9999px;
+			left: -9999px;
+		}
+		
+		tr { border: 1px solid #ccc; }
+		
+		td { 
+			/* Behave  like a "row" */
+			border: none;
+			border-bottom: 1px solid #eee; 
+			position: relative;
+			padding-left: 50%; 
+		}
+		
+		td:before { 
+			/* Now like a table header */
+			position: absolute;
+			/* Top/left values mimic padding */
+			top: 6px;
+			left: 6px;
+			width: 45%; 
+			padding-right: 10px; 
+			white-space: nowrap;
+		}
+		
+		/*
+		Label the data
+		*/
+		td:nth-of-type(1):before { content: "First Name"; }
+		td:nth-of-type(2):before { content: "Last Name"; }
+		td:nth-of-type(3):before { content: "Job Title"; }
+		td:nth-of-type(4):before { content: "Favorite Color"; }
+		td:nth-of-type(5):before { content: "Wars of Trek?"; }
+		td:nth-of-type(6):before { content: "Porn Name"; }
+		td:nth-of-type(7):before { content: "Date of Birth"; }
+		td:nth-of-type(8):before { content: "Dream Vacation City"; }
+		td:nth-of-type(9):before { content: "GPA"; }
+		td:nth-of-type(10):before { content: "Arbitrary Data"; }
+	}
+	
+	/* Smartphones (portrait and landscape) ----------- */
+	@media only screen
+	and (min-device-width : 320px)
+	and (max-device-width : 480px) {
+		body { 
+			padding: 0; 
+			margin: 0; 
+			width: 320px; }
+		}
+	
+	/* iPads (portrait and landscape) ----------- */
+	@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+		body { 
+			width: 495px; 
+		}
+	}
+	
+	</style>
+<!--<![endif]-->
+</head>
+<body class="wide_layout" bgcolor="#585759" text="white>
+
+<div id="styleswitcher" class="closed">
+<button class="open_sw"><i class="fa fa-cogs"></i></button>
+<h4 class="section_title section_title_var2">Style Switcher</h4>
+<ul>
+<li>
+<p>Layout type</p>
+<div class="resize_buttons">
+<button data-layout="wide" class="active button button_type_2 button_grey_light">Wide</button>
+<button data-layout="boxed" class="button button_type_2 button_grey_light">Boxed</button>
+</div>
+</li>
+<li>
+<p>Header style</p>
+<div class="custom_select">
+<div class="select_title">Header 1</div>
+<ul class="select_list"></ul>
+<select name="header_type">
+<option value="Header 1">Header 1</option>
+<option value="Header 2">Header 2</option>
+<option value="Header 3">Header 3</option>
+<option value="Header 4">Header 4</option>
+<option value="Header 5">Header 5</option>
+<option value="Header 6">Header 6</option>
+</select>
+</div>
+</li>
+<li>
+<p>Footer style</p>
+<div class="custom_select">
+<div class="select_title">Footer 1</div>
+<ul class="select_list"></ul>
+<select name="footer_type">
+<option value="Footer 1">Footer 1</option>
+<option value="Footer 2">Footer 2</option>
+<option value="Footer 3">Footer 3</option>
+<option value="Footer 4">Footer 4</option>
+<option value="Footer 5">Footer 5</option>
+<option value="Footer 6">Footer 6</option>
+</select>
+</div>
+</li>
+<li>
+<p>Background for boxed layout</p>
+<div class="custom_select">
+<div class="select_title">Color</div>
+<ul class="select_list"></ul>
+<select name="bg_color">
+<option value="Image">Image</option>
+<option value="Color">Color</option>
+</select>
+</div>
+</li>
+<li>
+<div class="bg_select_color">
+<p>Background color:</p><button id="select_color"></button>
+</div>
+</li>
+<li>
+<div class="bg_select_image" id="selectBackgroundImg">
+<p>Background pattern:</p>
+<button class="bg_image_button" data-image="images/bg1.jpg"></button>
+<button class="bg_image_button" data-image="images/bg2.png"></button>
+</div>
+</li>
+</ul>
+<button type="reset" class="button button_type_2 button_grey">Reset</button>
+</div>
+<div class="loader"></div>
+<!--[if (lt IE 9) | IE 9]>
+    <div class="ie_message_block">
+      <div class="container">
+        <div class="wrapper">
+          <div class="clearfix"><i class="fa fa-exclamation-triangle f_left"></i><b>Attention!</b> This page may   not display correctly. You are using an outdated version of Internet Explorer. For a faster, safer browsing experience.<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode" class="button button_type_3 button_grey_light f_right" target="_blank">Update Now!</a></div>
+        </div>
+      </div>
+    </div>
+  <![endif]-->
+
+<script type="text/javascript">
+ <!--
+  if (screen.width <= 700) {
+  window.location = "./mindex.html";
+  }
+ //-->
+ <div>
+<h2 class="section_title section_title_medium_var2">&nbsp;</h2>
+
+
+ </script>
+ 
+ 
+ <div class="content">
+<div class="container">
+<div class="section">
+</div>
+<div>
+<h2 class="section_title section_title_medium_var2">&nbsp;</h2>
+
+<div class="wrapper">
+<div class="flex_container">
+<div id="flexslider">
+<ul class="slides">
+<li>
+<div class="iframe_video_container">
+<iframe src="https://www.youtube.com/embed/RJ4_6QjdRUE?wmode=transparent" allowfullscreen></iframe>
+</div>
+</li>
+<li>
+<div class="iframe_video_container">
+<iframe src="https://www.youtube.com/embed/B1ivqfcH5WU?wmode=transparent" allowfullscreen></iframe>
+</div>
+</li>
+<li>
+<div class="iframe_video_container">
+<iframe src="https://www.youtube.com/embed/c8Dhs8_1j8g?wmode=transparent" allowfullscreen></iframe>
+</div>
+</li>
+<li>
+<div class="iframe_video_container">
+<iframe src="https://www.youtube.com/embed/XqMNhsQRX-A?wmode=transparent" allowfullscreen></iframe>
+</div>
+</li>
+<li>
+<div class="iframe_video_container">
+<iframe src="https://www.youtube.com/embed/GZ-ZAJ9YzQ4?wmode=transparent" allowfullscreen></iframe>
+</div>
+</li>
+<li>
+<div class="iframe_video_container">
+<iframe src="https://www.youtube.com/embed/z7YethVAZbY?wmode=transparent" allowfullscreen></iframe>
+</div>
+</li>
+<li>
+<div class="iframe_video_container">
+<iframe src="https://www.youtube.com/embed/Q9S_oilebY4?wmode=transparent" allowfullscreen></iframe>
+</div>
+</li>
+<li>
+<div class="iframe_video_container">
+<iframe src="https://www.youtube.com/embed/VPzK2ML4bPQ?wmode=transparent" allowfullscreen></iframe>
+</div>
+</li>
+<li>
+<div class="iframe_video_container">
+<iframe src="https://www.youtube.com/embed/bROuHuDCKDo?wmode=transparent" allowfullscreen></iframe>
+</div>
+</li>
+<li>
+<div class="iframe_video_container">
+<iframe src="https://www.youtube.com/embed/7q6CbcOhNQM?wmode=transparent" allowfullscreen></iframe>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="thumbnails_container type_2">
+<ul>
+<li class="clearfix">
+<div class="scale_image_container">
+<img src="https://i.ytimg.com/vi/RJ4_6QjdRUE/default.jpg" alt="">
+</div>
+<div class="post_text">
+<h4>Brindaban </h4>
+<div class="event_date">Mon 7:30 pm 31-01-2022</div><div class="event_date">Episode 37</div>
+</div>
+</li>
+<li class="clearfix">
+<div class="scale_image_container">
+<img src="https://i.ytimg.com/vi/B1ivqfcH5WU/default.jpg" alt="">
+</div>
+<div class="post_text">
+<h4>Brindaban </h4>
+<div class="event_date">Sat 7:30 pm 29-01-2022</div><div class="event_date">Episode 36</div>
+</div>
+</li>
+<li class="clearfix">
+<div class="scale_image_container">
+<img src="https://i.ytimg.com/vi/c8Dhs8_1j8g/default.jpg" alt="">
+</div>
+<div class="post_text">
+<h4>Brindaban </h4>
+<div class="event_date">Fri 7:30 pm 28-01-2022</div><div class="event_date">Episode 35</div>
+</div>
+</li>
+<li class="clearfix">
+<div class="scale_image_container">
+<img src="https://i.ytimg.com/vi/XqMNhsQRX-A/default.jpg" alt="">
+</div>
+<div class="post_text">
+<h4>Brindaban </h4>
+<div class="event_date">Thu 7:30 pm 27-01-2022</div><div class="event_date">Episode 34</div>
+</div>
+</li>
+<li class="clearfix">
+<div class="scale_image_container">
+<img src="https://i.ytimg.com/vi/GZ-ZAJ9YzQ4/default.jpg" alt="">
+</div>
+<div class="post_text">
+<h4>Brindaban </h4>
+<div class="event_date">Wed 7:30 pm 26-01-2022</div><div class="event_date">Episode 33</div>
+</div>
+</li>
+<li class="clearfix">
+<div class="scale_image_container">
+<img src="https://i.ytimg.com/vi/z7YethVAZbY/default.jpg" alt="">
+</div>
+<div class="post_text">
+<h4>Brindaban </h4>
+<div class="event_date">Tue 7:30 pm 25-01-2022</div><div class="event_date">Episode 32</div>
+</div>
+</li>
+<li class="clearfix">
+<div class="scale_image_container">
+<img src="https://i.ytimg.com/vi/Q9S_oilebY4/default.jpg" alt="">
+</div>
+<div class="post_text">
+ <h4>Brindaban </h4>
+<div class="event_date">Mon 7:30 pm 24-01-2022</div><div class="event_date">Episode 31</div>
+</div>
+</li>
+<li class="clearfix">
+<div class="scale_image_container">
+<img src="https://i.ytimg.com/vi/VPzK2ML4bPQ/default.jpg" alt="">
+</div>
+<div class="post_text">
+<h4>Brindaban </h4>
+<div class="event_date">Sat 7:30 pm 22-01-2022</div><div class="event_date">Episode 30</div>
+</div>
+</li>
+<li class="clearfix">
+<div class="scale_image_container">
+<img src="https://i.ytimg.com/vi/bROuHuDCKDo/default.jpg" alt="">
+</div>
+<div class="post_text">
+<h4>Brindaban </h4>
+<div class="event_date">Fri 7:30 pm 21-01-2022</div><div class="event_date">Episode 29</div>
+</div>
+</li>
+<li class="clearfix">
+<div class="scale_image_container">
+<img src="https://i.ytimg.com/vi/7q6CbcOhNQM/default.jpg" alt="">
+</div>
+<div class="post_text">
+<h4>Brindaban </h4>
+<div class="event_date">Thu 7:30 pm 20-01-2022</div><div class="event_date">Episode 28</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://rangtv.org/js/jquery-2.1.0.min.js"></script>
+<script src="https://rangtv.org/js/jquery-ui.min.js"></script>
+<script src="https://rangtv.org/plugins/flexslider/jquery.flexslider-min.js"></script>
+<script src="https://rangtv.org/js/jquery.queryloader2.min.js"></script>
+<script src="https://rangtv.org/js/jflickrfeed.js"></script>
+<script src="https://rangtv.org/js/owl.carousel.min.js"></script>
+<script src="https://rangtv.org/js/retina.js"></script>
+<script src="https://rangtv.org/js/styleswither.js"></script>
+<script src="js/colorpicker.js"></script>
+<script type="text/javascript" src="../../../s7.addthis.com/js/300/addthis_widget.js#pubid=xa-5306f8f674bfda4c"></script>
+<script src="https://rangtv.org/js/circles.min.js"></script>
+<script src="https://rangtv.org/plugins/twitter/jquery.tweet.min.js"></script>
+<script src="https://rangtv.org/js/plugins.js"></script>
+<script src="https://rangtv.org/js/script.js"></script>
+<script>
+    var colors = [['#fa985d', '#ffffff']], circles = [];
+    var child = document.getElementById('circles-3');
+    circles.push(Circles.create({
+        id:         child.id,
+        value:      6.2,
+        radius:     14,
+        width:      3,
+        maxValue:   10,
+        duration:   1000,
+        text:       function(value){return value;},
+        colors:    ['#fa985d', '#ffffff']
+    }));
+
+    var child = document.getElementById('circles-4');
+    circles.push(Circles.create({
+        id:         child.id,
+        value:      6.2,
+        radius:     14,
+        width:      3,
+        maxValue:   10,
+        duration:   1000,
+        text:       function(value){return value;},
+        colors:    ['#fa985d', '#ffffff']
+    }));
+
+    var child = document.getElementById('circles-8');
+    circles.push(Circles.create({
+        id:         child.id,
+        value:      8.0,
+        radius:     19,
+        width:      3,
+        maxValue:   10,
+        duration:   1000,
+        text:       function(value){return value;},
+        colors:    ['#fa985d', '#ffffff']
+    }));
+
+    var child = document.getElementById('circles-9');
+    circles.push(Circles.create({
+        id:         child.id,
+        value:      7.7,
+        radius:     19,
+        width:      3,
+        maxValue:   10,
+        duration:   1000,
+        text:       function(value){return value;},
+        colors:    ['#fa985d', '#ffffff']
+    }));
+
+    var child = document.getElementById('circles-10');
+    circles.push(Circles.create({
+        id:         child.id,
+        value:      9.2,
+        radius:     19,
+        width:      3,
+        maxValue:   10,
+        duration:   1000,
+        text:       function(value){return value;},
+        colors:    ['#fa985d', '#ffffff']
+    }));
+
+    var child = document.getElementById('circles-11');
+    circles.push(Circles.create({
+        id:         child.id,
+        value:      7.4,
+        radius:     14,
+        width:      3,
+        maxValue:   10,
+        duration:   1000,
+        text:       function(value){return value;},
+        colors:    ['#fa985d', '#ffffff']
+    }));
+
+    var child = document.getElementById('circles-12');
+    circles.push(Circles.create({
+        id:         child.id,
+        value:      6.5,
+        radius:     14,
+        width:      3,
+        maxValue:   10,
+        duration:   1000,
+        text:       function(value){return value;},
+        colors:    ['#fa985d', '#ffffff']
+    }));
+
+    var child = document.getElementById('circles-13');
+    circles.push(Circles.create({
+        id:         child.id,
+        value:      8.6,
+        radius:     14,
+        width:      3,
+        maxValue:   10,
+        duration:   1000,
+        text:       function(value){return value;},
+        colors:    ['#fa985d', '#ffffff']
+    }));
+
+    var child = document.getElementById('circles-14');
+    circles.push(Circles.create({
+        id:         child.id,
+        value:      9.3,
+        radius:     14,
+        width:      3,
+        maxValue:   10,
+        duration:   1000,
+        text:       function(value){return value;},
+        colors:    ['#fa985d', '#ffffff']
+    }));
+  </script>
+<script>
+    $('#layerslider').layerSlider({
+      autoStart: false,
+      responsive: true,
+      skinsPath : '',
+      imgPreload : false,
+      navPrevNext: true,
+      navButtons: false,
+      hoverPrevNext: false,
+      responsiveUnder : 940
+    });
+  </script>
+</body>
+</html>

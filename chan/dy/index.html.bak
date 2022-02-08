@@ -1,0 +1,51 @@
+
+
+
+<html>
+<head>
+<title>
+Assam Tv
+</title><style>
+
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9*/
+  position: relative;
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
+
+
+
+</style>
+
+</head>
+<body bgcolor="#585759" text="white">
+<div style="background-image: url('https://w0.peakpx.com/wallpaper/249/688/HD-wallpaper-night-sky-black-stars.jpg');">
+
+
+<div class="class="iframe-container">
+
+
+
+ <iframe src="https://smartstream.org.in/dy365secure/" id="myframe1" scrolling="no" frameborder="0" style="border:0" allow="autoplay" allowfullscreen="allow"></iframe>
+  
+		
+		</div>
+
+
+</div>
+
+</body></html>
+
+
+ 
+
