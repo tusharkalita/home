@@ -39,6 +39,19 @@
 
 </head>
 <body class="wide_layout">
+
+
+<script type="text/javascript">
+<!--
+if (screen.width <= 699) {
+document.location = "mobile.html";
+}
+//--
+</script>
+
+
+
+
 <script src="js/jquery-2.1.0.min.js"></script>
 <script language="javascript">
         $(document).ready(function(){
@@ -221,7 +234,7 @@ $('#light-box-pop-up').hide();
 </div>
 </li>
 <div class="section t_align_c">
-<a href="./ads/ad.html"><img src="https://www.rangtv.org/images/adiya-1.jpg" alt=""></a>
+<a href="./ads/ad.html"><img src="./ad/pic.jpg" alt=""></a>
 </div>
 </ul>
 </div>
