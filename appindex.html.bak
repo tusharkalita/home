@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Assam Tv - Home</title>
+  <link rel="stylesheet" href="./style.css">
+  
+  
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6513521491474782"
+     crossorigin="anonymous"></script>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>AssaMTv</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+
+  <script src="main.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+
+
+    
+    <!-- MAIN CONTAINER -->
+    <section class="main-container" >
+      <div class="location" id="home">
+          <h1 id="home">Watch Live</h1>
+          <div class="box">
+            <a href=""><img src="./img/at.png" alt=""></a>
+			  <a href=""><img src="./img/ne.png" alt=""></a>
+			    <a href=""><img src="./img/n18.png" alt=""></a>
+				  <a href=""><img src="./img/prag.png" alt=""></a>
+				    <a href=""><img src="./img/news.png" alt=""></a>
+					  <a href=""><img src="./img/pt.webp" alt=""></a>
+					    <a href=""><img src="./img/dy.png" alt=""></a>
+						  <a href=""><img src="./img/" alt=""></a>
+              </div>
+      </div>
+      
+
+
+
+
+      <h1 id="myList">Show Channel </h1>
+      <div class="box">
+     
+		  <a href=""><img src="./img/rang.png" alt=""></a>
+		    <a href=""><img src="./img/ren.webp" alt=""></a>
+      </div>
+	  
+	  
+	
+      
+      <h1 id="tvShows">TV Shows</h1>
+      <div class="box">
+        <a href=""><img src="https://www.rangtv.org/images/schedule/8.jpg" alt=""></a>
+        <a href=""><img src="https://www.rangtv.org/images/schedule/54.jpg" alt=""></a>
+		  <a href=""><img src="https://www.rangtv.org/images/schedule/56.jpg" alt=""></a>
+		    <a href=""><img src="https://www.rangtv.org/images/schedule/45.jpg" alt=""></a>
+			  <a href=""><img src="https://www.rangtv.org/images/schedule/52.jpg" alt=""></a>
+			    <a href=""><img src="https://www.rangtv.org/images/schedule/20.jpg" alt=""></a>
+				
+        <a href=""><img src="https://rengonitv.com/wp-content/uploads/2021/11/Duborir-Dolisat-Website-thumbnail-1.jpg" alt=""></a>
+        <a href=""><img src="https://rengonitv.com/wp-content/uploads/2021/05/Nedekha-fagun-Website-thumbnail.jpg" alt=""></a>
+        <a href=""><img src="https://rengonitv.com/wp-content/uploads/2020/12/Radhika-Website-thumbnail.jpg" alt=""></a>
+        <a href=""><img src="https://rengonitv.com/wp-content/uploads/2021/01/Kasiyoli-Website-thumbnail.jpg" alt=""></a>
+        <a href=""><img src="https://rengonitv.com/wp-content/uploads/2021/11/Mayabini-Website-thumbnail.jpg" alt=""></a>
+        <a href=""><img src="https://rengonitv.com/wp-content/uploads/2020/12/BOP-Website-thumbnail.jpg" alt=""></a>              
+      </div>
+      
+<!--
+      <h1 id="movies">Movies</h1>
+      <div class="box">
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m1.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m2.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m3.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m4.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m5.PNG?raw=true" alt=""></a>
+        <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m6.PNG?raw=true" alt=""></a>                
+      </div>
+
+    -->
+     
+    <!-- END OF MAIN CONTAINER -->
+
+    <!-- LINKS -->
+    <section class="link">
+      <div class="logos">
+        <a href="./fb.html"><i class="fab fa-facebook-square fa-2x logo"></i></a>
+        <a href="./insta.html"><i class="fab fa-instagram fa-2x logo"></i></a>
+        <a href="./twiter.html"><i class="fab fa-twitter fa-2x logo"></i></a>
+        <a href="./youtube.html"><i class="fab fa-youtube fa-2x logo"></i></a>
+      </div>
+      <div class="sub-links">
+        <ul>
+          <li><a href="#">Audio and Subtitles</a></li>
+
+          <li><a href="#">Help Center</a></li>
+
+          <li><a href="#">Media Center</a></li>
+
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Legal Notices</a></li>
+          <li><a href="#">Corporate Information</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </section>
+    <!-- END OF LINKS -->
+
+    <!-- FOOTER -->
+    <footer>
+      <p>&copy 2022 AssamTv by TKStudios, Inc.</p>
+      <p>Assam, IN &copy 2022</p>
+    </footer>
+  </div>
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
